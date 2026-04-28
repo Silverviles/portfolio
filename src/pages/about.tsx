@@ -19,7 +19,7 @@ export function AboutPage() {
       <div className="mt-10 grid gap-10 md:grid-cols-[180px_1fr] items-start">
         <div className="rounded-lg border border-border overflow-hidden w-40 aspect-square">
           <img
-            src={`${import.meta.env.BASE_URL}photo.png`}
+            src={`${import.meta.env.BASE_URL}photo.webp`}
             alt={profile.name}
             className="w-full h-full object-cover"
           />
